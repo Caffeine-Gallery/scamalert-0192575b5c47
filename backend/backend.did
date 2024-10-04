@@ -1,0 +1,4 @@
+service : {
+  getCreditCardCount: () -> (nat) query;
+  storeCreditCardInfo: (text, text, text, text) -> ();
+}
